@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="loadQuestion()">
+    <div class="container">
+        <div class="top-bar">
+            <span id="title"></span>
+            <span id="error">tekst</span>
+        </div>
+        <div class="questions">
+            <div id="ans1"></div>
+            <div id="ans2"></div>
+            <div id="ans3"></div>
+            <div id="ans4"></div>
+        </div>
+        <div class="buttons">
+            <button onclick="next()" id="guzik">Następne</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
